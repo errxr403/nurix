@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+        <div class="title-bar">
+      <div class="menu-button-container">
+        <button 
+          id="menu-button"
+          class="menu-button"
+        />
+      </div>
+      <div class="app-name-container">
+        <p>App Name</p>
+      </div>
+      <div class="window-controls-container">
+        <button 
+          id="minimize-button"
+          class="minimize-button"
+        />
+        <button 
+          id="min-max-button"
+          class="min-max-button"
+        />
+        <button 
+          id="close-button"
+          class="close-button"
+        />
+      </div>
+    </div>
+    <div id="wrapper">
+      <img id="cover" src="./assets/cover.jpg" width="180" height="180">
+      <h1 id="title">Fragments of time</h1>
+      <h2 id="author">Todd Edwards</h2>
+      <p1 id="duration1"><strong>00:00</strong></p1>
+      <p1 id="duration2"><strong>03:40</strong></p1>
+      <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
+      </div>
+      <div id="controls">
+        <img id="prev" src="./assets/previous.png" width="25" height="25">
+        <img id="play" src="./assets/play.png" width="25" height="25">
+        <img id="next" src="./assets/next.png" width="25" height="25">
+      </div>
+    </div>
+    <script src="./renderer.js"></script>
+  </body>
+</html>

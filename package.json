@@ -1,0 +1,26 @@
+{
+  "name": "nurix",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/errxr403/nurix",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Rahul",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^6.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "rangeslider.js": "^2.3.2"
+  }
+}
