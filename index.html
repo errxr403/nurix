@@ -7,9 +7,12 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
   </head>
   <body>
-    <div id="wrapper">
+    <div id="content">
+        <div class="bg"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
       <img id="cover" src="./assets/cover.jpg" width="180" height="180">
-      <h1 id="title">Fragments of time</h1>
+      <h1 id="m-title">Fragments of time</h1>
       <h2 id="author">Todd Edwards</h2>
       <p1 id="duration1"><strong>00:00</strong></p1>
       <p1 id="duration2"><strong>03:40</strong></p1>
@@ -17,11 +20,19 @@
         <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
       </div>
       <div id="controls">
-        <img id="prev" src="./assets/previous.png" width="25" height="25">
-        <img id="play" src="./assets/play.png" width="25" height="25">
-        <img id="next" src="./assets/next.png" width="25" height="25">
+            <button id="prev" type="submit" style="border: 0; background: transparent">
+                <img src="./assets/previous.png" width="25" height="25">
+            </button>
+        <!-- <audio id="A" src="./02. Lady Gaga - Bad Romance (Album Version).mp3" preload="auto"></audio> -->
+        <button id="play" type="submit" style="border: 0; background: transparent">
+            <img src="./assets/play.png" width="25" height="25" alt="submit" />
+      </button>
+      <button id="next" type="submit" style="border: 0; background: transparent">
+          <img id="next" src="./assets/next.png" width="25" height="25">
+        </button>
       </div>
     </div>
+    <script src="./components/function.js"></script>
     <script src="./renderer.js"></script>
   </body>
 </html>
