@@ -9,7 +9,7 @@ let mainWindow
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    icon: __dirname + '/assets/logo.svg',
+    icon: __dirname + '/assets/play.png',
     width: 550,
     height: 250,
     // transparent: true, 
